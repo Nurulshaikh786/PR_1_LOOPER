@@ -4,11 +4,15 @@
 using namespace std;
 int main()
 {
+    //declare ch='a'
     char ch = 'a';
+    //start do while loop
     do
     {
+        //execute this code
         cout << ch << " ";
         ch += 4;
     } while (ch <= 'z');
+    //while ch is smaller then 'z'
     return 0;
 }
